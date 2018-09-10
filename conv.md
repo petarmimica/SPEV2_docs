@@ -4,7 +4,7 @@ At this stage the output `VD` files produced by various postprocessors are conve
 
 ## Light curve converters
 
-These are the tools that integrate the `VD` in space and produce a time- and frequency-dependent light curve. There is a general converter `lcproch5` that makes no assumptions about geometry and an on-axis axisymmetri converter `oaproch5` that only works for a 1D `VDs` such as the ones used in the [`mshpoSPEV2` example](./examp.html#mshpospev2).
+These are the tools that integrate the `VD` in space and produce a time- and frequency-dependent light curve. There is a general converter `lcproch5` that makes no assumptions about geometry and an on-axis axisymmetri converter `oaproch5` that only works for a 1D `VDs` such as the ones used in the [`mshpoSPEV2` example](./examp.md#mshpospev2).
 
 The usage of both `lcproch5` and `oaproch5` is the same:
 
@@ -18,4 +18,4 @@ The arguments are:
 - `time_unit`: the default values is 1 second, but other useful values are 86400 for days and 3.15576d7 for years.
 - `usemJy`: if set to 1, then the light curve is expressed in milli Jansky.
 
-There is an [example](./examp.html#oaproch5) for `oaproch5`.
+There is an [example](./examp.md#oaproch5) for `oaproch5`.

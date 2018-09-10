@@ -12,7 +12,7 @@ We now discuss how the post-processors are used.
 
 ### `shpoSPEV2` and `mshpoSPEV2`
 
-These codes post-processes the files produced by [`shprSPEV2`](./pre.html#shprspev2). The code `shpoSPEV2` (`sh`ock `po`stprocessor for `SPEV2`) only accepts a single input file, while the code `mshpoSPEV2` (`m`ultiple `sh`ock `po`stprocessor for `SPEV2`) accepts an arbitrary number of input files. Otherwise they work in exactly the same way (they use the same main routine and only differ in the way the command line is interpreted).
+These codes post-processes the files produced by [`shprSPEV2`](./pre.md#shprspev2). The code `shpoSPEV2` (`sh`ock `po`stprocessor for `SPEV2`) only accepts a single input file, while the code `mshpoSPEV2` (`m`ultiple `sh`ock `po`stprocessor for `SPEV2`) accepts an arbitrary number of input files. Otherwise they work in exactly the same way (they use the same main routine and only differ in the way the command line is interpreted).
 
 The usage of `shpoSPEV2` is:
 `$ ./shpoSPEV2 params-file input-file output-root [start-block end-block]`
@@ -27,6 +27,6 @@ The arguments are:
 - `output-root`: root for the output file names
 - `start-block` and `end-block`: optional parameters that indicate the first and the last block to be read from the input file. These parameters only apply for `./shpoSPEV2`.
 
-There is an [example](./examp.html#mshpoSPEV2) of the postprocessing stage.
+There is an [example](./examp.md#mshpoSPEV2) of the postprocessing stage.
 
-  [55fdff28]: prm.html "parameters"
+  [55fdff28]: prm.md "parameters"

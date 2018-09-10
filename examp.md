@@ -23,9 +23,9 @@ This tells `shprSPEV2` to read the files `example-00000.h5` through `example-000
 
 ## `mshpoSPEV2`
 
-We will use the file produced in the [`shprSPEV2`](./examp.html#shprspev2) example. The following files will be needed:
+We will use the file produced in the [`shprSPEV2`](./examp.md#shprspev2) example. The following files will be needed:
 - `mshpoSPEV2` compiled with the following command: `$ make -j OPENMP=1 AXIS=1 SPHERICAL=1 NATIVE=1 mshpoSPEV2`
-- `prep00000.h5` produced in the  [`shprSPEV2`](./examp.html#shprspev2) example
+- `prep00000.h5` produced in the  [`shprSPEV2`](./examp.md#shprspev2) example
 - `post.params` parameter file
 - `uinterp.h5`: synchrotron interpolation table
 - `gauntff_merged_Z01.dat` from the SPEV2 source
@@ -39,9 +39,9 @@ It indicates to `mshpoSPEV2` that it should read the parameters from `post.param
 
 ## `oaproch5`
 
-We will use the file produced in the [`mshpoSPEV2`](./examp.html#mshpospev2) example. The following files will be needed:
+We will use the file produced in the [`mshpoSPEV2`](./examp.md#mshpospev2) example. The following files will be needed:
 - `oaproch5` compiled with the command: `$make -j NATIVE=1 oaproch5`
-- `postp-thick.h5` produced in the [`mshpoSPEV2`](./examp.html#mshpospev2) example.
+- `postp-thick.h5` produced in the [`mshpoSPEV2`](./examp.md#mshpospev2) example.
 
 We invoke `oaproch5` with the following command:
 `$ ./oaproch5 postp-thick.h5 lc.dat -1d0 1d16 1d0 1`
