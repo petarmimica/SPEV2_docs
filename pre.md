@@ -43,11 +43,11 @@ The arguments (all obligatory) are:
 - `snap-skip`: how many snapshots to skip at the start of the simulation. This is used to avoid being affected by initial numerical transients and artefacts. If left out, it is assumed to be 0.
 
 
-There is an [example](./examp.html#shprspev2) of the preprocessing of a 1D simulation.
+There is an [example](examp.md#shprspev2) of the preprocessing of a 1D simulation.
 
 The particles that are created at the shocks always have `xm` equal to `xp`, but `vxp` > `vxm`. This means that in the time interval between `time` and `ntime` the particle grows from zero x-width to a finite x-width `(vxp - vxm) * (ntime - time)`. In `shprSPEV2` the value of `vxp` is set to the estimated shock front velocity. Once the particle is created, in the subsequent iterations `vxm` = `vxp` and are set to the local fluid velocity behind the shock. In this way it is ensured that the particles will fill the volume behind the shock regardless of the snapshot frequency.
 
 A standard shock acceleration phenomenology is used to initialize the electron energy distribution and to estimate the magnetic field.
 
-  [d5aeb4f3]: post.html "postprocessing"
-  [b53a3586]: prm.html "Parameters"
+  [d5aeb4f3]: post.md "postprocessing"
+  [b53a3586]: prm.md "Parameters"
