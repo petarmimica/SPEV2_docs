@@ -26,7 +26,7 @@ This is the table of contents of the `SPEV` documentation:
 
   [4c31a2f3]: http://adsabs.harvard.edu/abs/2016JPhCS.719a2008M "Mimica et al. (2016) paper"
   [2e979a74]: https://riunet.upv.es/handle/10251/35350 "Thesis Carmen Aloy"
-  [0528faf2]: pre.html "Preprocessing"
+  [0528faf2]: pre.md "Preprocessing"
   [c929024b]: post.html "Postprocessing"
   [29558c59]: conv.html "Converting"
   [ad7f1642]: examp.html "Examples"
