@@ -27,7 +27,7 @@ We will use the file produced in the [`shprSPEV2`](./examp.md#shprspev2) example
 - `mshpoSPEV2` compiled with the following command: `$ make -j OPENMP=1 AXIS=1 SPHERICAL=1 NATIVE=1 mshpoSPEV2`
 - `prep00000.h5` produced in the  [`shprSPEV2`](./examp.md#shprspev2) example
 - `post.params` parameter file
-- `uinterp.h5`: synchrotron interpolation table
+- `uinterp.h5`: synchrotron interpolation table (get if from [this link](https://drive.google.com/open?id=1mYBBZbZXXfc4S-TDnKGT6vUOYpY_jJKt))
 - `gauntff_merged_Z01.dat` from the SPEV2 source
 
 We run the following command:
