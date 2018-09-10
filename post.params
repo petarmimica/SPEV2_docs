@@ -1,0 +1,36 @@
+'xres', 3913 # ---> detector resolution
+'xmin', 0d0 # ---> detector horizontal start
+'xmax', 5d0 # ---> detector horizontal end
+'yres', 1
+'ymin', 0d0
+'ymax', 1d-4
+'tres', 50 # ---> number of time slices
+'tmin', 2.7d1 # ---> first time slice
+'tmax', 2.7d3 # ---> last time slice
+'fres', 5 # ---> number of frequencies
+'fmin',  1d14 # ---> first frequency
+'fmax',  1d18 # ---> last frequency
+'lres', 5
+'empty_frac', 1d-1
+'dens_norm', 1.67262158d-24
+'length_norm', 1d16
+'labToffset', 0d0 # ---> set to 0 because already used in shprSPEV2
+'epsilon_e', 1d-1 #1d-1 # 1d-1
+'zeta_e', 1d0
+'epsilon_B', 1d-3 #1d-3 # 5d-3
+'pind', 2.3d0
+'num_bins', 64
+'trtr', 3d-1
+'prtr', 3d-1 
+'theta_obs', 0d0
+'degrade', 1
+'redshift', 0.354d0 # ---> source redshift
+'d_L', 5.851374984d27 # ---> luminosity distance (compute manually)
+'denstr', 0d0
+'crop', 'none'
+'sample_perc', -5d0
+'sample_seed', -534334
+'theta_j_min', 0d0 
+'theta_j_max', 0.1d0 
+'num_theta_j', 100 
+'obsfile', 'olc43.6.dat'

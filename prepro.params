@@ -1,0 +1,36 @@
+'xres', 25001
+'xmin', 0d0
+'xmax', 2.5d2
+'yres', 1
+'ymin', 0d0
+'ymax', 1d-4
+'tres', 50
+'tmin', 4.32d6
+'tmax', 4.32d8
+'fres', 2
+'fmin',  4.99d9 #15.4d9
+'fmax',  8.42d9 #15.4d9
+'lres', 5
+'empty_frac', 1d-1
+'dens_norm', 1.67262158d-24
+'length_norm', 1d16
+'labToffset', 5.00278009475d0
+'epsilon_e', 1d-1 #1d-1 # 1d-1
+'zeta_e', 1d0
+'epsilon_B', 1d-3 #1d-3 # 5d-3
+'pind', 2.3d0
+'num_bins', 64
+'trtr', 3d-1
+'prtr', 3d-1 # <-- shock detection 'epsilon'
+'theta_obs', 0d0
+'degrade', 1
+'redshift', 0d0 #0.354d0
+'d_L', 1d0 #5.851374984d27
+'denstr', 0d0
+'crop', 'none'
+'sample_perc', -5d0
+'sample_seed', -534334
+'theta_j_min', 0d0 # <--- the jet starts at axis
+'theta_j_max', 0.1d0 # <--- the jet extends to 0.1 radian
+'num_theta_j', 100 # <--- number of angular bins
+'obsfile', 'olc43.6.dat'
