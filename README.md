@@ -6,7 +6,7 @@ Petar Mimica, August 2018
 
 ## Introduction
 
-`SPEV` is a radiation transfer code that is capable of processing the results of various hydrodynamic simulation codes and compute time- and frequency-dependent emission (images, spectra, light curves). For a technical introduction you can read the paper by [Mimica _et al._ (2016)][4c31a2f3] (a copy is saved in the folder - [`SPEV_technical_paper.pdf`](SPEV_technical_paper.pdf)). A more detailed description can be found starting on page 32 of the master's thesis by Carmen Aloy ([Aloy C. 2016][2e979a74] - [local pdf](Thesis_C_Aloy.pdf)).
+`SPEV` is a radiation transfer code that is capable of processing the results of various hydrodynamic simulation codes and compute time- and frequency-dependent emission (images, spectra, light curves). For a technical introduction you can read the paper by [Mimica _et al._ (2016)][4c31a2f3]. A more detailed description can be found starting on page 32 of the master's thesis by Carmen Aloy ([Aloy C. 2016][2e979a74]).
 
 In essence, to successfully get `SPEV` to produce a synthetic observation, the following three steps need to be executed:
 
